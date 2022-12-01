@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    height: 1000px;
+
+
+
+
+}
+
+.blackness {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 712px;
+}
+
+#first {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 712px;
+    background-size: auto;
+    z-index: 1;
+    border-bottom: solid gray 6px;
+}
+
+.brand-name img {
+    width: 13rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 56px;
+    padding-top: 20px;
+}
+
+.header-content {
+    justify-items: center;
+    padding-top: 35px;
+}
+
+.eng-btn {
+    width: 93px;
+    height: 36px;
+    border: solid white 0.5px;
+    background-color: rgba(36, 18, 18, 0.304);
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    margin: auto 12px;
+}
+
+.sign-in-btn {
+    width: 84px;
+    height: 34px;
+    background-color: red;
+    color: white;
+    padding: 7px 17px;
+    border: none;
+    font-weight: bold;
+}
+
+#main-content {
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-content div .title{
+    font-size: 5vw;
+    font-weight:600;
+    margin-bottom: 20px;
+   
+}
+
+#main-content{
+    margin-left:34px;
+    margin-right:34px;
+    padding: 0px 100px;
+   
+}
+
+#main-content div .sub-title{
+    font-size: 2vw;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#main-content div .text{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom:15px ;
+}
+
+#main-content div input{
+    width: 500px;
+    height: 60px;
+    padding: 10px 10px 0 10px;
+}
+#main-content div button{
+    height: 73px;
+    width: 240px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* second section */
+#second{
+    background-color: rgba(-1, -1, -1, 10);
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center;
+    text-align: center;
+    border-bottom: solid gray 6px;
+    
+}
+
+#second .title{
+    font-size: 4vw;
+    font-weight:600;
+    color: white;
+    margin-bottom: 20px;
+    padding-top:165px;
+    
+}
+
+#second .sec-subtitle{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color:white;
+    
+}
+
+.tv{
+    width: 600px;
+    height: 450px;
+    z-index: 1;
+}
+#second div .video{
+    position: relative;
+    top: 339px;
+    height: 241px;
+    width: 438px;
+    left: -3px;
+}
+
+
+
+
+/* third section */
+
+#third{
+    background-color: rgba(-1, -1, -1, 10);
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    border-bottom: solid gray 6px;
+    padding: 70px 45px;
+}
+
+#third div .phone{
+    width: 504px;
+    height: 378px;
+}
+#third div .third-title{
+    font-size: 3vw;
+    font-weight:600;
+    color: white;
+    margin-bottom: 20px;
+    padding-top:165px;
+}
+
+#third div .third-sub-title{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color:white;
+    
+}
+
+#third div .downloading{
+    background-color: rgba(-1, -1, -1, 10);
+    width: 300px;
+    height: 67px;
+    border-radius: 10px;
+    border: solid grey 3px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 356px;
+    left: 97px;
+}
+
+#third div .downloading img{
+    width: 50px;
+    height: 58px;
+  
+}
+
+#third div .downloading div .downloading-text{
+    color: blue;
+}
+
+/* fourth section */
+
+#fourth{
+    z-index: 0;
+    background-color: rgba(-1, -1, -1, 10);
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 45px;
+    border-bottom: solid gray 6px;
+    
+    
+}
+
+#fourth div .third-title{
+    font-size: 3vw;
+    font-weight:600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#fourth div .third-sub-title{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color:white;
+}
+
+#fourth div .pc-video{
+    width: 350px;
+    height: 197px;
+    position: relative;
+    top: 256px;
+}
+
+
+/* fifth section */
+#fifth{
+    background-color: rgba(-1, -1, -1, 10);
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px 45px;
+    border-bottom: solid gray 6px;
+}
+
+#fifth div .children{
+    width: 100%;
+
+}
+#fifth div .fifth-title{
+    font-size: 3vw;
+    font-weight:600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#fifth div .fifth-sub-title{
+    font-size: 1.5vw;
+    font-weight: 100;
+    color:white;
+}
+
+/* last section */
+#last-section{
+    background-color: rgba(-1, -1, -1, 10);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px ;
+    border-bottom: solid gray 6px;
+}
+
+#last-section .text{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom:20px;
+    color: white;
+}
+
+#last-section form input{
+    width: 500px;
+    height: 60px;
+    padding: 10px 10px 0 10px;
+}
+
+#last-section form button{
+    height: 73px;
+    width: 240px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgba(-1, -1, -1, 10);
+    border-bottom: solid gray 6px;
+
+}
+
+footer .footer-content{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    color: grey;
+    justify-content: center;
+    align-items: center; 
+    font-size: small;
+    
+}
+
+footer .footer-area{
+    padding: 70px 45px;
+    line-height: 30px;
+    margin-left: 140px;
+    margin-right: 70px;
+    justify-content: center;
+}
+
+footer .footer-area .eng-btn{
+    width: 110px;
+    height: 44px;
+    border: solid white 0.5px;
+    background-color: rgba(36, 18, 18, 0.304);
+    color: white;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 0;
+    
+}
+
+footer .footer-area p{
+    color: grey;
+    margin-top: 25px;
+}
