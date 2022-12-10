@@ -242,7 +242,9 @@ header {
     position: relative;
     top: 256px;
 }
-
+#fourth div .pc{
+    position: relative;
+}
 
 /* fifth section */
 #fifth{
